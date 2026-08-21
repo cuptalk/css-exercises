@@ -36,7 +36,7 @@ body {
 
 .header {
   display: flex;
-  margin: 8px;
+  margin: 0px 16px;
 
 }
 
@@ -45,7 +45,7 @@ body {
   flex-direction: row;
   margin-right: auto;
   gap: 16px;
-  padding: 0;
+  padding-left: 0px;
 }
 
 .header .right-links {
@@ -61,20 +61,16 @@ li {
 
 a {
   text-decoration: none;
-  color: rgb(138, 138, 138);
+  color: rgb(109, 109, 109);
 }
 
 .content {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
   margin-top: auto;
   margin-bottom: auto;
 }
 
 .input {
-  margin: 16px;
+  margin: 12px 0 16px;
 }
 
 button {
@@ -83,14 +79,7 @@ button {
 
 .footer {
   display: flex;
-  /* flex-direction: column; */
-  /* margin: 8px; */
-  padding: 8px;
-  /* justify-content: flex-end; */
-  /* align-items: flex-end; */
-  margin-top: auto;
   background-color: rgb(233, 233, 233);
-
 }
 
 .footer .left-links {
@@ -98,7 +87,7 @@ button {
   flex-direction: row;
   margin-right: auto;
   gap: 16px;
-  padding: 0;
+  padding-left: 16px;
 }
 
 .footer .right-links {
@@ -106,4 +95,5 @@ button {
   flex-direction: row;
   margin-left: auto;
   gap: 16px;
+  padding-right: 16px;
 }
