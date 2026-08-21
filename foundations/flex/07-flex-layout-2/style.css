@@ -24,6 +24,78 @@ body {
 
 .card {
   border: 1px solid #eee;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, .06);
   border-radius: 4px;
+}
+
+/* my solution */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  font-size: 32px;
+  font-weight: 900;
+  padding: 0px 16px;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  /* margin-bottom: auto; */
+}
+
+.sidebar {
+  width: 300px;
+  /* height: auto; */
+  flex: 1 0 auto;
+  /* margin-bottom: auto; */
+}
+
+.sidebar ul {
+  padding-left: 0px;
+}
+
+.sidebar li {
+  list-style: none;
+  margin: 16px;
+}
+
+.sidebar a {
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+
+}
+
+
+.card-container {
+  display: flex;
+  padding: 48px;
+  flex-flow: row wrap;
+  gap: 32px;
+  margin-bottom: auto;
+  align-content: stretch;
+}
+
+.card {
+  display: flex;
+  box-sizing: border-box;
+  width: 334px;
+  max-width: 334px;
+  height: 307px;
+  max-height: 325px;
+  flex: 1 0 auto;
+  padding: 16px;
+  margin-bottom: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
 }
